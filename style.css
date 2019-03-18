@@ -1,0 +1,52 @@
+h1 {
+	font-family: Gill Sans;
+	font-size: 40px;
+	font-weight: lighter;
+	float: left;
+	padding-left: 35px;
+}
+
+img {
+	align: center;
+}
+
+header {
+	background: #DCDCDC;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 45px;
+	padding-right: 35px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: Gill Sans;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+
+
+
+
+
